@@ -1,4 +1,4 @@
-var instance = Syncano({instance: 'twilight-bird-3277', apiKey: 'c261b092751f882fc73f28f6e672adf50626d0a7'});
+var instance = Syncano({instance: 'INSTANCE', apiKey: 'API_KEY'});
 
 // FILE UPLOADS
 var fileInput = document.getElementById('file_form');
@@ -15,7 +15,7 @@ fileInput.addEventListener('submit', function(e){
             }
         };
 
-        instance.class('filetest').dataobject().add(object)
+        instance.class('CLASS').dataobject().add(object)
             .then(function(res){
                 console.log(res);
             })
