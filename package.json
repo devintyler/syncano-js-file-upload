@@ -1,0 +1,20 @@
+{
+  "name": "syncano-js-file-upload",
+  "version": "1.0.0",
+  "description": "Syncano JS Library file upload example",
+  "main": "index.html",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devintyler/syncano-js-file-upload.git"
+  },
+  "author": "Devin Visslailli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devintyler/syncano-js-file-upload/issues"
+  },
+  "homepage": "https://github.com/devintyler/syncano-js-file-upload",
+  "dependencies": {
+    "syncano": "^0.4.7"
+  }
+}
